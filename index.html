@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="description" content="Our first page">
+<meta name="keywords" content="html tutorial template">
+</head>
+<body>
+    <div className="user-information">
+       
+        
+              
+            <form action='/predict' method = "POST">
+              
+            
+                <label className="label">Do you have high BP?</label>
+                <input className="input-box" type="text" required /> 
+            
+  
+              
+                <label className="label">Do you have high cholestrol?</label>
+                <input className="input-box" type="text" required />
+             
+  
+              
+                <label className="label">BMI</label>
+                <input className="input-box" type="text" name="pass" required />
+              
+  
+              
+                <label className="label">Do you smoke?</label>
+                <input className="input-box" type="text" name="pass" required />
+              
+  
+            
+                <label className="label">Have you ever had a stroke?</label>
+                <input className="input-box" type="text" name="pass" required />
+             
+                <label className="label">Have you ever had a heart attack?</label>
+                <input className="input-box" type="text" name="pass" required />
+              
+  
+              
+                <label className="label">Do you eat fruits?</label>
+                <input className="input-box" type="text" name="pass" required />
+              
+  
+             
+                <label className="label">Do you eat vegetables?</label>
+                <input className="input-box" type="text" name="pass" required />
+              
+  
+           
+                <label className="label">Do you drink a lot of alcohol?</label>
+                <input className="input-box" type="text" name="pass" required />
+             
+  
+              
+                <label className="label">gen health</label>
+                <input className="input-box" type="text" name="pass" required />
+              
+  
+              
+                <label className="label">phys health</label>
+                <input className="input-box" type="text" name="pass" required />
+              
+  
+              
+                <label className="label">walking</label>
+                <input className="input-box" type="text" name="pass" required />
+              
+  
+              
+                <label className="label">sex</label>
+                <input className="input-box" type="text" name="pass" required />
+             
+             
+                <label className="label">Age</label>
+                <input className="input-box" type="text" name="pass" required />
+             
+  
+              
+                <button type="submit" className = "button" >Submit</button>
+              
+            </form>
+          </div>
+      <h4>{{ prediction_text }}</h4>
+      </div>
+</body>
+</html>
